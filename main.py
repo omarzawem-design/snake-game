@@ -8,7 +8,7 @@ from scoreboard import Scoreboard
 window = Screen()
 window.setup(width=800,height=800)
 window.bgcolor("black")
-window.title("Snacke Game")
+window.title("Snake Game")
 window.tracer(0)
 
 snake = Snake()

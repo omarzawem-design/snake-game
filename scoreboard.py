@@ -17,7 +17,7 @@ class Scoreboard(Turtle):
             with open("highscore.txt","r") as file :
                 return int(file.read())
         except (FileNotFoundError, ValueError):
-            self.high_score = 0
+            return 0
 
 
     def save_highscore(self):
